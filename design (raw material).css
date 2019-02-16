@@ -1,0 +1,747 @@
+/* <system section="theme" selected="life"> */
+@import "/css/theme/life/life.css";
+/* </system> */
+
+/* <system section="background" selected="pattern-09"> */
+body{ background-image: url('/images/theme/backgrounds/2014/pattern-09.png'); background-repeat: repeat; background-attachment: scroll; background-position: 0 0; }
+/* </system> */
+
+body{ 
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", 'メイリオ', Meiryo, 'ヒラギノゴシック', sans-serif; /*フォントの種類*/
+}
+
+/* フォントサイズ */
+.entry-content p {font-size: 16px;}
+@media screen and (max-width: 480px){.entry-content p {font-size: 16px;}}
+
+/* 記事内のリンクの色を変更 */
+.entry-content a:link{
+    color:#819FF7;
+}
+.entry-content a:visited{
+    color:#9F81F7;
+}
+.entry-content a:hover{
+    color:#ee2d71;
+    text-decoration:underline;
+}
+/* クリック前の色 */
+.hatena-module a:link {color:#819FF7;}
+/* クリック後 */
+.hatena-module a:visited {color:#9F81F7;}
+/* マウスを重ねた時 */
+.hatena-module a:hover {color:#ee2d71;}
+
+/* ブログのデザイン変更 */
+/* bタグは太字 */
+article b{
+    font-weight:bold !important;
+}
+/* 強調表示を蛍光ペン風に */
+article em {
+    background: linear-gradient(to bottom, transparent 60%, #b6f0fc 60%);
+}
+/* とても強調表示を蛍光ペン風に */
+article strong {
+    background: linear-gradient(transparent 40%, #ffff66 40%);
+}
+
+/* 記事のテキスト選択時の文字色・背景色を設定 */
+article ::selection {
+    background-color: yellow;
+    color: black;
+}
+article .balloon-ochappa em {
+     background: none;
+}
+article .balloon-ochappa strong {
+     background: none;
+}
+article .balloon-kou em {
+     background: none;
+}
+article .balloon-kou strong {
+     background: none;
+}
+
+/* ソースコードのスタイル */
+.entry-content code {
+    color: #3d3f44;
+}
+.balloon-ochappa code {
+    background-color: dodgerblue;
+    color: white;
+}
+.balloon-kou code {
+    background-color: tomato;
+    color: white;
+}
+
+/* メモ帳風CSS */
+.wrapnote {
+    position: relative;
+    display: inline-block;
+    max-width: 90%;
+    margin: 10px;
+    padding: 1em;
+    background: #eeeeee;
+    color: #333333;
+}
+.wrapnote p {
+    border-bottom: dotted 2px darkgray;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+/* カード */
+.card {
+    padding: 0.5em;
+    margin: 0.5em;
+    max-width: 400px;
+    border: solid 2px #4D3633;
+    background: #694641;
+}
+.card .headline {
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    color: #DDCECC;
+    font-size: 250%;
+}
+.card .terbri {
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    color: #AD8A85;
+    font-size: 250%;
+}
+.card hr {
+    border: dashed 1px #4D3633;
+}
+.card .meaning {
+    color: #DDCECC;
+}
+.brivla {
+    margin: 0 0.7em 0 0;
+    padding: 0em 0.5em;
+    border-radius: 1em;
+    font-weight: bold;
+    color: #DDCECC;
+    background: linear-gradient(transparent 0%, brown 0%);
+}
+
+/* おちゃっぱちゃん と こうちゃん */
+.icon-ochappa-jitome, .icon-ochappa-knyacki, .icon-ochappa-kyupi, .icon-ochappa-maru, .icon-ochappa-maruase, .icon-ochappa,
+.icon-ochappa-oko, .icon-ochappa-wara,.icon-ochappa-waraase, .icon-ochappa-yandere, .icon-ochappa-yandereoko {
+    background: #DFFFC0;
+}
+.icon-kou-jitome, .icon-kou-knyacki, .icon-kou-kyupi, .icon-kou-maru, .icon-kou-maruase, .icon-kou,
+.icon-kou-oko, .icon-kou-wara, .icon-kou-waraase, .icon-kou-yandere, .icon-kou-yandereoko {
+    background: pink;    
+}
+.icon-ochappa-jitome {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823134337.png");
+}
+.icon-ochappa-knyacki {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823134332.png");
+}
+.icon-ochappa-kyupi {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823134326.png");
+}
+.icon-ochappa-maru {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823134321.png");
+}
+.icon-ochappa-maruase {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823134314.png");
+}
+.icon-ochappa {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180824/20180824115708.png");
+}
+.icon-ochappa-oko {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180824/20180824115703.png");
+}
+.icon-ochappa-wara {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180824/20180824115657.png");
+}
+.icon-ochappa-waraase {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180824/20180824115652.png");
+}
+.icon-ochappa-yandere {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180824/20180824115647.png");
+}
+.icon-ochappa-yandereoko {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180824/20180824120207.png");
+}
+.icon-kou-jitome {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133305.png");
+}
+.icon-kou-knyacki {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133300.png");
+}
+.icon-kou-kyupi {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133254.png");
+}
+.icon-kou-maru {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133248.png");
+}
+.icon-kou-maruase {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133243.png");
+}
+.icon-kou {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133627.png");
+}
+.icon-kou-oko {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133621.png");
+}
+.icon-kou-wara {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133615.png");
+}
+.icon-kou-waraase {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133609.png");
+}
+.icon-kou-yandere {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133603.png");
+}
+.icon-kou-yandereoko {
+    background-image: url("https://cdn-ak.f.st-hatena.com/images/fotolife/s/skytomo/20180823/20180823133903.png");
+}
+.icon-ochappa-jitome, .icon-ochappa-knyacki, .icon-ochappa-kyupi, .icon-ochappa-maru, .icon-ochappa-maruase, .icon-ochappa,
+.icon-ochappa-oko, .icon-ochappa-wara, .icon-ochappa-waraase, .icon-ochappa-yandere, .icon-ochappa-yandereoko,
+.icon-kou-jitome, .icon-kou-knyacki, .icon-kou-kyupi, .icon-kou-maru, .icon-kou-maruase, .icon-kou,
+.icon-kou-oko, .icon-kou-wara, .icon-kou-waraase, .icon-kou-yandere, .icon-kou-yandereoko {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-position-y: -10px;
+    background-position-x: -3px;
+    background-size: 60px;
+}
+.icon-other {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-size: 100%;
+}
+.balloon-ochappa, .balloon-kou, .balloon-other {
+    position: relative;
+    display: inline-block;
+    margin: 0.7em 0em 0.3em 5px;
+    padding: 7px 10px 7px 10px;
+    max-width: 70%;
+    color: white;
+    font-size: 16px;
+    border-radius: 0.2em;    
+}
+.balloon-ochappa {
+    background: #67A6EB;
+}
+.balloon-kou {
+    background: #ff5388;
+}
+.balloon-other {
+    background: #333333
+}
+.balloon-ochappa::selection {
+    background-color: dodgerblue;
+    color: white;
+}
+.balloon-kou::selection {
+    background-color: tomato;
+    color: white;
+}
+.balloon-other::selection {
+    background-color: darkgrey;
+    color: white;    
+}
+.balloon-ochappa *::selection {
+    background-color: dodgerblue;
+    color: white;
+}
+.balloon-kou *::selection {
+    background-color: tomato;
+    color: white;
+}
+.balloon-other *::selection {
+    background-color: darkgrey;
+    color: white;    
+}
+
+/* マウスオーバーで吹き出し表示 */
+.text {
+    position: relative;
+    margin: 0em;
+    padding: 0;
+}
+.tips {
+    display: none;
+    position: static;
+    border-radius: 0.2em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f0f0f0;
+    font-size: 80%;
+    margin: 0;
+    padding: 0.2em;
+}
+.text:hover {
+    transition: all 0.6s ease 0s;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0.2em;
+    margin: 0em;
+    padding: 0 0.2em;
+    background-position: -100% 0;
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 50%, yellow 50%);
+    background-size: 200% auto;
+}
+.balloon-ochappa > * >.text:hover {
+    background-image: linear-gradient(to right, #67A6EB 50%, dodgerblue 50%);
+    color: white;
+
+}
+.balloon-kou > * >.text:hover {
+    background-image: linear-gradient(to right, #ff5388 50%, tomato 50%);
+    color: white;
+}
+.text:hover + .tips {
+    display: inline;
+}
+
+/* 品詞マーク */
+.kind {
+    margin: 0 0.3em 0 0;
+    padding: 0em 0.1em;
+    border-radius: 0.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(transparent 0%, darkgray 0%);
+}
+
+/* キーワード */
+/*
+.keyword {
+    background-color: #ffff66;
+    border-radius: 0.2em;
+    margin: 0;
+    padding: 0.1em 0.2em;
+}
+.keyword::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 1;
+    content: "\f02b";
+    display: inline;
+    margin: 0.2em;
+    font-weight: 900;
+}
+.balloon-ochappa .keyword {
+    background: dodgerblue;
+}
+.balloon-kou .keyword {
+    background: tomato;
+}
+*/
+
+/* チェックリスト */
+ul.checklist, .note, .problem, .wrapnote{
+    margin: 15px 5%;
+    padding: 10px;
+    border: 1px solid #888;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+}
+ul.checklist::before, .note::before, .problem::before{
+    letter-spacing: 4px;
+	margin: -5px 0 5px -2.5px;
+    font-weight: bolder;
+    white-space: pre;
+}
+
+ul.checklist {
+    border: solid 2px #ffb03f;
+    position: relative;
+    font-size: 16px;
+} 
+.checklist::before {
+    font-size: small;
+    color: #ffb03f;
+    content: "CHECK\a";
+}
+.checklist li {
+    line-height: 1.5;
+    padding: 1em 1em 0em 2.3em;
+    list-style-type: none!important;/*ポチ消す*/
+    font-size: 1em;
+}
+.checklist li:before {/*疑似要素*/
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    position: absolute;
+    right: 1em;
+    left : 1em; /*左端からのアイコンまで*/
+    color: #ffb03f; /*アイコン色*/
+    font-weight: 900;
+}
+
+.note{
+    border-color:#4DB6AC;
+}
+.note::before {
+    font-size: small;
+    color: #4DB6AC;
+    content: "NOTE\a";
+}
+
+.problem{
+    border: 2px solid #004D40;
+    padding: 1em;
+}
+.problem::before {
+    font-size: small;
+    color: #004D40;
+    content: "もんだい\a";
+    margin: 1em;
+}
+.problem > li{
+	list-style-type:none;
+	padding: 10px;
+}
+.problem > li > ol > li > ul > li{
+    list-style-type:none;
+    padding: 0;
+}
+
+/* ページ設定 */
+.pager {
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    list-style: none;
+}
+.pager li{
+    margin: -1em;
+}
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.next > a,
+.next > span {
+  float: right;
+}
+.previous > a,
+.previous > span {
+  float: left;
+}
+
+/* 誰かの会話 */
+.box {
+    background: #F2F2F2;
+    margin: 0em;
+    padding: 7px 10px 7px 10px;
+    border-radius: 0.2em;
+    font-size: 16px;
+}
+
+/* チャット */
+.chat-post {
+    margin: 0.5em 0;
+}
+.chat-post .chat-icon {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-size: 100%;
+}
+.chat-post .chat-message-box {
+    border: 1px solid #ddd;
+    border-radius: 0.2em;
+    display: inline-block;
+    padding: 0.5em;
+    max-width: calc(100% - (50px + 24px));
+}
+.chat-post .chat-message-box .chat-message-header .chat-name {
+    font-size: small;
+}
+.chat-post .chat-message-box .chat-message-header .chat-message-data {
+    font-size: small;
+    color: darkgray;
+}
+.chat-name + .chat-message-data::before, .chat-message-data + .chat-message-data::before {
+    content: '· ';
+}
+.chat-post .chat-message-box .chat-message {
+    font-size: 16px;
+    margin: 0.1em 0 0.3em 0;
+}
+.chat-post .chat-message-box .chat-reaction {
+    font-size: small;
+}
+.chat-post .chat-message-box .chat-reaction .chat-reaction-item {
+    background: #eee;
+    padding: 0.2em;
+    border-radius: 0.2em;
+}
+
+
+/*******************************/
+/* ここから下は記事以外のデザイン */
+/*******************************/
+
+/* ヘッダのところ */
+.nav>ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  display: block;
+  overflow: hidden;
+}
+.nav>ul>li {
+  box-sizing: border-box;
+  width: calc(100% / 4);
+  height: 40px;
+  line-height: 40px;
+  background: black;
+  color: white;
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  transition: box-shadow .3s ease-in-out;
+  font-size: 0.8em;
+}
+.nav>ul>li:first-child() {
+  border-left: 0;
+}
+.nav>ul>li:hover {
+  box-shadow: 0 0 50px 25px #333333 inset;
+}
+.nav>ul>li>a {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* 更新時間 */
+.lastmod {
+    color: #f0f0f0;
+    background-color: #111;
+    padding: 5px 6px;
+    text-decoration: none;
+    font-size: 90%;
+    display: inline;
+    margin-left: 10px;
+}
+.lastmod::before {
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f021';
+    font-weight: 900; 
+}
+.entry-date a {
+    color: #f0f0f0;
+    background-color: #111;
+    padding: 5px 6px !important;
+    text-decoration: none;
+    font-size: 90%;
+    display: inline;
+    margin-left: 10px;
+}
+.entry-date a::before {
+    margin-right: 5px;
+    padding-left: 3px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f017';
+    font-weight: 900; 
+}
+
+/*シェアボタン*/
+.share-3d{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-3d-inner a {
+    bottom: 1em;
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.share-3d .small-text{
+    font-size: 10px;
+}
+.share-3d .hatena-bookmark-button{
+    background: #00A4DE;
+    box-shadow: 0 3px #43638b;
+}
+.share-3d .twitter-button{
+    background: #55ACEE;
+    box-shadow: 0 3px #0092ca;
+}
+.share-3d .googleplus-button{
+    background: #C53727;
+    box-shadow: 0 3px #ad3a2d;
+}
+.share-3d .facebook-button{
+    background: #405BA7;
+    box-shadow: 0 3px #2c4373;
+}
+.share-3d .pocket-button{
+    background: #EE4256;
+    box-shadow: 0 3px 0 #c0392b;
+}
+.share-3d .line-button{
+    position:relative;
+    top: -14px;
+    background: #00C300;
+    box-shadow: 0 3px 0 green;
+}
+.share-3d .share-3d a:active{
+    top: 3px;
+    box-shadow: none;
+}
+.share-3d .line-button:active{
+    top: -13px;
+}
+@media screen and (min-width: 480px) {
+    .line-hide{
+        display: none;
+    }
+    .share-3d-inner a{
+        width: 18%;
+    }
+}
+
+/* 見出しデザイン */
+.entry-content h2 {
+  padding: 4px 10px;
+  color: #3D3F44;
+  background: #f3f3f3;
+  border-left: 8px solid #3f3f3f;
+  border-bottom: none;
+  margin:60px 0 15px 0;
+}
+.entry-content h2:before{
+  font-family: "Font Awesome 5 Free";
+  /*アイコンユニコード*/
+  content: "\f02d";
+  /*アイコン色*/
+  color: #3D3F44;
+  margin-right: 8px;
+  font-weight: 900; 
+}
+.entry-content h3 {
+  position: relative;
+  color: #3D3F44;
+  border-bottom: 4px solid #f3f3f3;
+  padding: 3px 10px;
+  margin:30px 0 10px 0;
+}
+.entry-content h3:before{
+  font-family: "Font Awesome 5 Free";
+  /*アイコンユニコード*/
+  content: "\f02e";
+  /*アイコン色*/
+  color: #3D3F44;
+  margin-right: 8px;
+  font-weight: 900; 
+}
+.entry-content h3::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 20%;
+  height: 4px;
+  background:#3f3f3f;
+  z-index: 2;
+  content: '';
+}
+.entry-content h4 {
+  color:#3D3F44;
+  position: relative;
+  padding-left: 1.2em;
+  line-height: 1.4;
+  margin:20px 0 8px 0;
+}
+.entry-content h4:before{
+  font-family: "Font Awesome 5 Free";
+  /*アイコンユニコード*/
+  content: "\f27a";
+  /*アイコン色*/
+  color: #3f3f3f; 
+  position: absolute;
+  font-size: 1em;
+  left: 0;
+  top: 0;
+  font-weight: 900; 
+}
+
+
+/* 目次 */
+.table-of-contents {
+	 position: relative;
+	 background-color: #f9fafc;
+	 padding: 40px 10px 10px 35px !important;
+	 border-radius: 6px;
+	 font-size: 14px;
+	 line-height: 28px;
+}
+.table-of-contents::before {
+   content: '目次';
+	 position: absolute;
+	 display: block;
+	 text-align: center;
+	 top: 8px;
+	 left: 50%;
+	 margin-left: -1em;
+	 font-size: 18px;
+	 font-weight: 700;
+	 z-index: 2;
+}
+
+/* 脚注 */
+div.footnote {
+    border-radius: 6px;
+    background-color: #f9fafc;
+	padding: 10px 20px !important;
+	border: 1px solid #d2d7e5;
+}
+
+/* ブログタイトル */
+.entry-title {
+  font-weight: bold;
+  font-size: 2em;
+  position: relative;
+  padding: 0.2em 0;
+}

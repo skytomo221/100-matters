@@ -1,0 +1,468 @@
+/* <system section="theme" selected="life"> */
+@import "/css/theme/life/life.css";
+/* </system> */
+
+/* <system section="background" selected="pattern-09"> */
+body{ background-image: url('/images/theme/backgrounds/2014/pattern-09.png'); background-repeat: repeat; background-attachment: scroll; background-position: 0 0; }
+/* </system> */
+
+body{ 
+    font-family: 'メイリオ', Meiryo, sans-serif; /*フォントの種類*/
+}
+
+/*ブログ名の文字サイズ*/
+/*#title{
+font-size: 67px;
+}*/
+
+/*記事内のリンクの色を変更*/
+
+.entry-content a:link{
+    color:#819FF7;
+}
+
+.entry-content a:visited{
+    color:#9F81F7;
+}
+
+.entry-content a:hover{
+    color:#ee2d71;
+    text-decoration:underline;
+}
+
+/*クリック前の色*/
+
+.hatena-module a:link {color:#819FF7;}
+
+/*クリック後*/
+
+.hatena-module a:visited {color:#9F81F7;}
+
+/*マウスを重ねた時*/
+
+.hatena-module a:hover {color:#ee2d71;}
+
+
+
+/* bタグは太字 */
+article b {
+    font-weight:bold !important;
+}
+
+/* 強調表示を蛍光ペン風に */
+article em {
+    background: linear-gradient(to bottom, transparent 60%, #b6f0fc 60%);
+}
+
+/* とても強調表示を蛍光ペン風に */
+article strong {
+    background: linear-gradient(transparent 40%, #ffff66 40%);
+}
+
+/* 記事のテキスト選択時の文字色・背景色を設定 */
+article ::selection {
+    background-color: yellow;
+    color: black;
+}
+
+/* メモ帳風CSS */
+.wrapnote {
+    position: relative;
+    display: inline-block;
+    max-width: 70%;
+    margin: 10px;
+    padding: 1em;
+    background: #eeeeee;
+    color: #333333;
+}
+.wrapnote p {
+    border-bottom: dotted 2px darkgray;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+/* カード */
+.card {
+    padding: 0.5em;
+    margin: 0.5em;
+    max-width: 400px;
+    border: solid 2px #4D3633;
+    background: #694641;
+}
+
+.card .headline {
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    color: #DDCECC;
+    font-size: 250%;
+}
+
+.card .terbri {
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    color: #AD8A85;
+    font-size: 250%;
+}
+
+.card hr {
+    border: dashed 1px #4D3633;
+}
+
+.card .meaning {
+    color: #DDCECC;
+}
+
+.brivla {
+    margin: 0 0.7em 0 0;
+    padding: 0em 0.5em;
+    border-radius: 1em;
+    font-weight: bold;
+    color: #DDCECC;
+    background: linear-gradient(transparent 0%, brown 0%);
+}
+
+/* おちゃっぱちゃん と こうちゃん */
+.icon-ochappa-jitome, .icon-ochappa-knyacki, .icon-ochappa-kyupi, .icon-ochappa-maru, .icon-ochappa-maruase, .icon-ochappa,
+.icon-ochappa-oko, .icon-ochappa-wara,.icon-ochappa-waraase, .icon-ochappa-yandere, .icon-ochappa-yandereoko {
+    background: #DFFFC0;
+}
+.icon-kou-jitome, .icon-kou-knyacki, .icon-kou-kyupi, .icon-kou-maru, .icon-kou-maruase, .icon-kou,
+.icon-kou-oko, .icon-kou-wara, .icon-kou-waraase, .icon-kou-yandere, .icon-kou-yandereoko {
+    background: pink;    
+}
+.icon-ochappa-jitome {
+    background-image: url("ochappa/jitome.png");
+}
+.icon-ochappa-knyacki {
+    background-image: url("ochappa/knyacki.png");
+}
+.icon-ochappa-kyupi {
+    background-image: url("ochappa/kyupi.png");
+}
+.icon-ochappa-maru {
+    background-image: url("ochappa/maru.png");
+}
+.icon-ochappa-maruase {
+    background-image: url("ochappa/maruase.png");
+}
+.icon-ochappa {
+    background-image: url("ochappa/normal.png");
+}
+.icon-ochappa-oko {
+    background-image: url("ochappa/oko.png");
+}
+.icon-ochappa-wara {
+    background-image: url("ochappa/wara.png");
+}
+.icon-ochappa-waraase {
+    background-image: url("ochappa/waraase.png");
+}
+.icon-ochappa-yandere {
+    background-image: url("ochappa/yandere.png");
+}
+.icon-ochappa-yandereoko {
+    background-image: url("ochappa/yandereoko.png");
+}
+.icon-kou-jitome {
+    background-image: url("kou/jitome.png");
+}
+.icon-kou-knyacki {
+    background-image: url("kou/knyacki.png");
+}
+.icon-kou-kyupi {
+    background-image: url("kou/kyupi.png");
+}
+.icon-kou-maru {
+    background-image: url("kou/maru.png");
+}
+.icon-kou-maruase {
+    background-image: url("kou/maruase.png");
+}
+.icon-kou {
+    background-image: url("kou/normal.png");
+}
+.icon-kou-oko {
+    background-image: url("kou/oko.png");
+}
+.icon-kou-wara {
+    background-image: url("kou/wara.png");
+}
+.icon-kou-waraase {
+    background-image: url("kou/waraase.png");
+}
+.icon-kou-yandere {
+    background-image: url("kou/yandere.png");
+}
+.icon-kou-yandereoko {
+    background-image: url("kou/yandereoko.png");
+}
+.icon-ochappa-jitome, .icon-ochappa-knyacki, .icon-ochappa-kyupi, .icon-ochappa-maru, .icon-ochappa-maruase, .icon-ochappa,
+.icon-ochappa-oko, .icon-ochappa-wara, .icon-ochappa-waraase, .icon-ochappa-yandere, .icon-ochappa-yandereoko,
+.icon-kou-jitome, .icon-kou-knyacki, .icon-kou-kyupi, .icon-kou-maru, .icon-kou-maruase, .icon-kou,
+.icon-kou-oko, .icon-kou-wara, .icon-kou-waraase, .icon-kou-yandere, .icon-kou-yandereoko {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+    background-position-y: -10px;
+    background-position-x: -3px;
+    background-size: 60px;
+    float: left;
+}
+
+.balloon-ochappa, .balloon-kou {
+    position: relative;
+    display: inline-block;
+    margin: 0.7em 0em 0.3em 5px;
+    padding: 7px 10px 7px 10px;
+    max-width: 70%;
+    color: white;
+    font-size: 16px;
+    border-radius: 0.2em;    
+}
+.balloon-ochappa {
+    background: #67A6EB;
+}
+.balloon-kou {
+    background: #ff5388;
+}
+.balloon-ochappa::selection {
+    background-color: dodgerblue;
+    color: white;
+}
+.balloon-kou::selection {
+    background-color: tomato;
+    color: white;
+}
+.balloon-ochappa *::selection {
+    background-color: dodgerblue;
+    color: white;
+}
+.balloon-kou *::selection {
+    background-color: tomato;
+    color: white;
+}
+
+/* マウスオーバーで吹き出し表示 */
+/*.tooltip {
+    position: relative;
+    z-index: 2;
+}
+.tooltip::after {
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+}
+.tooltip::after {
+    content: attr(data-tooltip);
+    display: inline;
+    padding: 0.1em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f0f0f0;
+    border-radius: 0.2em;
+    top: 30px;
+    left: 0px;
+    text-align: center;
+    font-size: 80%;
+    /*min-width: 120%;*/
+/*}
+.tooltip:hover {
+    padding: 0px 2;
+    background: yellow;
+    color: black;
+    border-radius: 0.2em;
+}
+.balloon-ochappa > .tooltip:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+.balloon-kou  > .tooltip:hover {
+    background-color: tomato;
+    color: white;
+}
+.tooltip:hover::after{
+    top: 2.5em;
+    opacity: 1;
+}
+*/
+
+/* マウスオーバーで吹き出し表示 */
+.text {
+    position: relative;
+    margin: 0em;
+    padding: 0;
+}
+.tips {
+    display: none;
+    position: static;
+    border-radius: 0.2em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f0f0f0;
+    font-size: 80%;
+    margin: 0;
+    padding: 0.2em;
+}
+.text:hover {
+    transition: all 0.6s ease 0s;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0.2em;
+    margin: 0em;
+    padding: 0 0.2em;
+    background-position: -100% 0;
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 50%, yellow 50%);
+    background-size: 200% auto;
+}
+.balloon-ochappa > * >.text:hover {
+    background-image: linear-gradient(to right, #67A6EB 50%, dodgerblue 50%);
+    color: white;
+
+}
+.balloon-kou > * >.text:hover {
+    background-image: linear-gradient(to right, #ff5388 50%, tomato 50%);
+    color: white;
+}
+.text:hover + .tips {
+    display: inline;
+}
+
+/* 品詞マーク */
+.kind {
+    margin: 0 0.3em 0 0;
+    padding: 0em 0.1em;
+    border-radius: 0.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(transparent 0%, darkgray 0%);
+}
+
+/* チェックリスト */
+ul.checklist {
+    border: solid 2px #ffb03f;
+    position: relative;
+} 
+.checklist::before {
+    font-size: small;
+    color: #ffb03f;
+    content: "CHECK\a";
+}
+.checklist li {
+    line-height: 1.5;
+    padding: 1em 1em 0em 2.3em;
+    list-style-type: none!important;/*ポチ消す*/
+}
+.checklist li:before {/*疑似要素*/
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    position: absolute;
+    right: 1em;
+    left : 1em; /*左端からのアイコンまで*/
+    color: #ffb03f; /*アイコン色*/
+    font-weight: 900; 
+}
+
+.checklist, .note, .problem, .wrapnote{
+    margin: 15px 5%;
+    padding: 10px;
+    border: 1px solid #888;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+}
+
+.checklist::before, .note::before, .problem::before{
+    letter-spacing: 4px;
+	margin: -5px 0 5px -2.5px;
+    font-weight: bolder;
+    white-space: pre;
+}
+
+.note{
+    border-color:#4DB6AC;
+}
+.note::before {
+    font-size: small;
+    color: #4DB6AC;
+    content: "NOTE\a";
+}
+
+.problem{
+    border: 2px solid #004D40;
+}
+.problem::before {
+    font-size: small;
+    color: #004D40;
+    content: "もんだい\a";
+}
+.problem > li{
+	list-style-type:none;
+}
+.problem > li > ol > li > ul{
+	padding:0 0px;
+}
+.problem > li > ol > li > ul > li{
+	list-style-type:none;
+    margin: 2px 0px;
+}
+
+/* ページ設定 */
+.pager {
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    list-style: none;
+}
+.pager li{
+    margin: -1em;
+}
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.next > a,
+.next > span {
+  float: right;
+}
+.previous > a,
+.previous > span {
+  float: left;
+}
+
+/*キーワード*/
+.keyword {
+    background-color: #ffff66;
+    border-radius: 0.2em;
+    margin: 0;
+    padding: 0.1em 0.2em;
+}
+.keyword::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 1;
+    content: "\f02b";
+    display: inline;
+    margin: 0.2em;
+    font-weight: 900;
+}
+.balloon-ochappa .keyword {
+    background: dodgerblue;
+}
+.balloon-kou .keyword {
+    background: tomato;
+}
+
+/* 誰かの会話 */
+.box {
+    background: #F2F2F2;
+    display: inline-block;
+    margin: 0em;
+    padding: 7px 10px 7px 10px;
+    max-width: 70%;
+    border-radius: 0.2em;
+}
